@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Person
 
 def home_page(request):
     return HttpResponse("<h1> Welcome to the django page ... </h1>")
@@ -10,9 +11,6 @@ def Newapp(request):
 
 
 def home(request):
-    data = {
-        'home' : "Arun",
-        'roll' : 1234,
-        'university' : "pu"
-    }
+    Persons = Person.objects.all()
+    data = {'Persons':Persons}
     return render(request,'index.html',data)

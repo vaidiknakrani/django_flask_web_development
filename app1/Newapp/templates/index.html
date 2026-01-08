@@ -1,4 +1,124 @@
-<!DOCTYPE html>
+{% load static %}
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body> -->
+    <!---Navbar start--->
+    <!-- Copy to BlackBox
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>\
+    Copy to BlackBox
+<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Primary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Secondary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Danger card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Warning card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Info card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Light card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Dark card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+    <h1>Hello, World!</h1>
+    <p1>This is a sample Django template.</p1>
+    <h6> Name :{{name}}</h6>
+    <h6>Roll : {{roll}}</h6>
+    <h6>University : {{university}}</h6>
+        {%for i in Persons%}
+            <li>{{i.firstName}}{{i.lastName}}{{i.pH}}</li>
+        {%endfor%}
+    </h6>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html> -->
+
+<!-- below is the code for the website of the VisualVault that is for gallary -->
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,7 +143,6 @@
             color: #1a1a1a;
             overflow-x: hidden;
         }
-
         /* Navbar */
         nav {
             position: absolute;
@@ -319,6 +438,294 @@
 
         // Initial Load
         renderGallery(photoData);
+    </script>
+</body>
+</html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinbru Clone | Digital Twin Configurator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    
+    <style>
+        :root {
+            --primary: #000000;
+            --gray: #f4f4f4;
+            --text: #333333;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #ffffff; overflow-x: hidden; }
+
+        /* Navigation */
+        nav {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 20px 5%; position: fixed; width: 100%; top: 0; z-index: 1000;
+            background: rgba(255,255,255,0.95); border-bottom: 1px solid #eee;
+        }
+        .logo { font-size: 20px; font-weight: bold; letter-spacing: 3px; text-transform: uppercase; }
+        .nav-links { display: flex; list-style: none; gap: 30px; }
+        .nav-links a { text-decoration: none; color: var(--text); font-size: 14px; font-weight: 500; }
+
+        /* Hero Configurator Section */
+        .hero { display: flex; height: 100vh; padding-top: 80px; }
+        .hero-info { 
+            flex: 1; padding: 100px 5%; display: flex; flex-direction: column; 
+            justify-content: center; z-index: 2;
+        }
+        .hero-info h1 { font-size: 52px; line-height: 1.1; margin-bottom: 20px; }
+        .hero-info p { color: #666; margin-bottom: 30px; font-size: 18px; max-width: 400px; }
+
+        /* 3D Canvas Container */
+        #canvas-container { 
+            flex: 1.5; position: relative; background: radial-gradient(circle, #ffffff 0%, #e0e0e0 100%);
+            cursor: grab;
+        }
+        #loader {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            font-weight: bold; color: #888;
+        }
+
+        /* Library Section */
+        .library { padding: 80px 5%; background: var(--gray); }
+        .library h2 { margin-bottom: 40px; text-align: center; font-weight: 400; }
+        .asset-grid { 
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+            gap: 20px; max-width: 1200px; margin: 0 auto;
+        }
+        .card { 
+            background: white; padding: 15px; border-radius: 4px; cursor: pointer;
+            transition: transform 0.2s; text-align: center;
+        }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .swatch { 
+            width: 100%; height: 150px; background-size: cover; 
+            background-position: center; border-radius: 2px; margin-bottom: 10px;
+        }
+        .card span { font-size: 14px; font-weight: bold; display: block; }
+        .card small { color: #888; font-size: 12px; }
+
+        @media (max-width: 768px) {
+            .hero { flex-direction: column; }
+            .hero-info { order: 2; padding: 40px 5%; }
+            #canvas-container { height: 400px; order: 1; }
+            .hero-info h1 { font-size: 32px; }
+        }
+
+        /* Resources Section */
+        #resources { padding: 60px 5%; background: #fff; }
+        #resources h2 { margin-bottom: 10px; text-align: center; font-weight: 400; }
+        .resource-grid { margin-top: 20px; display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:20px; max-width:1200px; margin-left:auto; margin-right:auto; }
+        .resource-card {
+            background: white;
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid #f0f0f0;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            min-height: 140px;
+        }
+        .resource-card h3 { font-size: 16px; margin-bottom: 4px; }
+        .resource-card p { color: #666; font-size: 13px; margin-bottom: 6px; }
+        .resource-card a.visit { text-decoration: none; color: #fff; background: #111; padding: 8px 12px; border-radius: 6px; font-weight:600; display:inline-block; }
+        .resource-card .meta { font-size: 12px; color: #888; }
+
+        @media (max-width: 480px) {
+            .hero-info h1 { font-size: 24px; }
+            .resource-card { padding: 12px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Twin<b>Clone</b></div>
+        <ul class="nav-links">
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#library">Digital Library</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#" style="background: black; color: white; padding: 10px 20px;">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-info">
+            <h1>Physical Beauty.<br><span style="color:#888">Digital Precision.</span></h1>
+            <p>Experience the world's most accurate digital twins for interior design.</p>
+            <div id="active-fabric">Active: <b>Velvet Slate</b></div>
+        </div>
+        
+        <div id="canvas-container">
+            <div id="loader">Loading Digital Twin...</div>
+        </div>
+    </section>
+
+    <section id="library" class="library">
+        <h2>Digital Twin Library</h2>
+        <div class="asset-grid" id="assetGrid">
+            </div>
+    </section>
+
+    <section id="resources">
+        <h2>Free Asset Resources</h2>
+        <p style="text-align:center; color:#555; max-width:900px; margin: 0 auto 20px;">Curated, high-quality free assets to test digital twins: unwrapped 3D models and multi-map PBR fabric sets (Diffuse/Normal/Roughness).</p>
+        <div class="resource-grid">
+            <div class="resource-card">
+                <h3>Poly Haven — Models (GLB/GLTF)</h3>
+                <p>High-quality, CC0 furniture models (sofas, chairs) that are often already UV-unwrapped and ready for fabric textures.</p>
+                <div class="meta">Format: .glb/.gltf · License: CC0</div>
+                <a class="visit" href="https://polyhaven.com/models" target="_blank">Visit Poly Haven Models</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>Sketchfab — Free & Downloadable</h3>
+                <p>Search for "sofa" or "chair" and filter by "Downloadable" and license (CC0) to find ready-to-use models.</p>
+                <div class="meta">Tip: check the asset is unwrapped before applying PBR textures</div>
+                <a class="visit" href="https://sketchfab.com/search?features=downloadable&license=cc0&q=sofa" target="_blank">Browse Sketchfab</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>Khronos — Sample Models</h3>
+                <p>Official glTF sample models such as <b>SheenChair</b> and <b>Couch</b>—perfect for testing fabric maps and GLTF/GLB loaders.</p>
+                <div class="meta">Repo: glTF-Sample-Models · Examples: SheenChair, Couch</div>
+                <a class="visit" href="https://github.com/KhronosGroup/glTF-Sample-Models" target="_blank">Open Khronos Samples</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>Poly Haven — Fabrics (PBR Sets)</h3>
+                <p>Professional-grade scans (denim, linen, leather) — download ZIPs containing Diffuse/Normal/Roughness maps for realistic materials.</p>
+                <div class="meta">Includes multi-resolution maps (2K/4K) · License: CC0</div>
+                <a class="visit" href="https://polyhaven.com/textures" target="_blank">Browse Poly Haven Textures</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>AmbientCG — Cloth Textures</h3>
+                <p>Large collection of PBR fabric textures with full 4K maps, ideal for high-quality digital twins and material testing.</p>
+                <div class="meta">Category: Cloth · Format: PNG/TGA maps</div>
+                <a class="visit" href="https://ambientcg.com/list?category=cloth" target="_blank">Explore AmbientCG Cloth</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>FreePBR</h3>
+                <p>Good for specific weaves like "Soft Blanket" or "Linen"—each pack includes at least Diffuse, Normal and Roughness maps.</p>
+                <div class="meta">Great for niche weaves and small sample sets</div>
+                <a class="visit" href="https://freepbr.com/" target="_blank">Visit FreePBR</a>
+            </div>
+        </div>
+
+        <p style="text-align:center; color:#555; max-width:900px; margin: 30px auto 0;">How to use: download a GLB/GLTF model (ensure it's UV-unwrapped), then apply a PBR texture set (Diffuse/Normal/Roughness) in the material. See the <b>Digital Twin Library</b> above to click swatches and preview changes in real time.</p>
+    </section>
+
+    <script>
+        // 1. DATA: List of fabrics (Replace URLs with your own PBR textures later)
+        const fabrics = [
+            { name: "Velvet Slate", color: "#4a4e69", roughness: 0.8, pattern: "https://www.transparenttextures.com/patterns/carbon-fibre.png" },
+            { name: "Linen Sand", color: "#d6ccc2", roughness: 1.0, pattern: "https://www.transparenttextures.com/patterns/linen-design.png" },
+            { name: "Satin Emerald", color: "#2d6a4f", roughness: 0.3, pattern: "https://www.transparenttextures.com/patterns/shattered-island.png" },
+            { name: "Leather Onyx", color: "#1a1a1a", roughness: 0.4, pattern: "https://www.transparenttextures.com/patterns/leather.png" }
+        ];
+
+        // 2. SCENE SETUP
+        const container = document.getElementById('canvas-container');
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(45, container.clientWidth / container.clientHeight, 0.1, 1000);
+        camera.position.set(2, 1, 4);
+
+        const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+        renderer.setSize(container.clientWidth, container.clientHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.toneMapping = THREE.ReinhardToneMapping;
+        container.appendChild(renderer.domElement);
+
+        const controls = new THREE.OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+
+        // 3. LIGHTING (Twinbru uses high-contrast studio lighting)
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
+        scene.add(ambientLight);
+
+        const spotLight = new THREE.SpotLight(0xffffff, 1);
+        spotLight.position.set(5, 10, 5);
+        scene.add(spotLight);
+
+        // 4. MODEL & MATERIAL
+        let chairModel;
+        const textureLoader = new THREE.TextureLoader();
+        
+        // Base Material
+        let activeMaterial = new THREE.MeshStandardMaterial({
+            color: fabrics[0].color,
+            roughness: fabrics[0].roughness,
+            metalness: 0.1
+        });
+
+        const loader = new THREE.GLTFLoader();
+        // Loading a sample 3D Chair from Khronos (Official GLTF sample)
+        loader.load('https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/SheenChair/glTF/SheenChair.gltf', (gltf) => {
+            chairModel = gltf.scene;
+            chairModel.traverse((child) => {
+                if (child.isMesh) {
+                    child.material = activeMaterial;
+                }
+            });
+            chairModel.scale.set(3, 3, 3);
+            chairModel.position.y = -1;
+            scene.add(chairModel);
+            document.getElementById('loader').style.display = 'none';
+        });
+
+        // 5. INTERACTIVITY: Change Fabric Function
+        function updateFabric(index) {
+            const fabric = fabrics[index];
+            activeMaterial.color.set(fabric.color);
+            activeMaterial.roughness = fabric.roughness;
+            
+            // Apply pattern texture
+            const texture = textureLoader.load(fabric.pattern);
+            texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
+            texture.repeat.set(5, 5);
+            activeMaterial.map = texture;
+            activeMaterial.needsUpdate = true;
+
+            document.getElementById('active-fabric').innerHTML = `Active: <b>${fabric.name}</b>`;
+        }
+
+        // 6. POPULATE UI LIBRARY
+        const grid = document.getElementById('assetGrid');
+        fabrics.forEach((f, index) => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.onclick = () => updateFabric(index);
+            card.innerHTML = `
+                <div class="swatch" style="background-color: ${f.color}; background-image: url('${f.pattern}')"></div>
+                <span>${f.name}</span>
+                <small>Digital Twin Available</small>
+            `;
+            grid.appendChild(card);
+        });
+
+        // 7. ANIMATION LOOP
+        function animate() {
+            requestAnimationFrame(animate);
+            if (chairModel) chairModel.rotation.y += 0.002; // Automatic rotation
+            controls.update();
+            renderer.render(scene, camera);
+        }
+        animate();
+
+        // Handle Window Resize
+        window.addEventListener('resize', () => {
+            camera.aspect = container.clientWidth / container.clientHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(container.clientWidth, container.clientHeight);
+        });
     </script>
 </body>
 </html>
